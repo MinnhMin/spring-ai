@@ -54,7 +54,7 @@ public class ChatService {
                 You responses are clear, concise, and professional.
                 """);
 
-        UserMessage userMessage = new UserMessage(request.message);
+        UserMessage userMessage = new UserMessage(request.message());
 
         Prompt prompt = new Prompt(systemMessage, userMessage);
 

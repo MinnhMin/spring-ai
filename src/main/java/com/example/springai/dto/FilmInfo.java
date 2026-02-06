@@ -1,4 +1,4 @@
 package com.example.springai.dto;
 
-public record FilmInfo() {
+public record FilmInfo(String name, String year) {
 }
